@@ -4,11 +4,11 @@ from getpass import getpass
 os.system("clear")
 def banner():
 	print("\033[1;36;40m_                                   _                _")
-        print("| |_ ___ _ __ _ __ ___  _   ___  __ | |__   __ _  ___| | _____ _ __")
+	print("| |_ ___ _ __ _ __ ___  _   ___  __ | |__   __ _  ___| | _____ _ __")
 	print("| __/ _ \ '__| '_ ` _ \| | | \ \/ / | '_ \ / _` |/ __| |/ / _ \ '__|")
-        print("| ||  __/ |  | | | | | | |_| |>  <  | | | | (_| | (__|   <  __/ |")
+	print("| ||  __/ |  | | | | | | |_| |>  <  | | | | (_| | (__|   <  __/ |")
 	print(" \__\___|_|  |_| |_| |_|\__,_/_/\_\ |_| |_|\__,_|\___|_|\_\___|_|\033[0m")
-	print("                \033[1;34;40m Termux king of \033[1;33;40mNazmul Tufan\033[0m")
+	print("                \033[1;34;40m Developed by \033[1;33;40mNazmul Tufan\033[0m")
 	print("")
 banner()
 if not os.path.exists("/data/data/com.termux/files/usr/share/user.txt"):
